@@ -1,3 +1,16 @@
 spring:
   application:
     name: spring-db2
+  datasource:
+    url: jdbc:db2://localhost:50000/SAMPLE
+    username: db2inst1
+    password: db2inst1
+    driver-class-name: com.ibm.db2.jcc.DB2Driver
+    dbcp2:
+      test-while-idle: true
+      validation-query: SELECT 1
+  jpa:
+    show-sql: true
+      
+server:
+  port: 8100

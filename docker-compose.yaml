@@ -7,11 +7,12 @@ services:
     ports:
       - "50000:50000"
     environment:
-      LICENSE: 'accept'
-      DB2INST1_PASSWORD: 'db2inst1'
-      DBNAME: 'INVDB'
+      LICENSE: "accept"
+      DB2INST1_PASSWORD: "db2inst1"
     volumes:
       - ./db2/database:/database
-  app:
-     build: .
-     container_name: app
+  # app:
+  #   build: .
+  #   container_name: app
+  #   ports:
+  #     - "8100:8100"

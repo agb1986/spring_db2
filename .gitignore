@@ -29,3 +29,4 @@ target/
 .project
 .settings/
 db2/
+data.sql
