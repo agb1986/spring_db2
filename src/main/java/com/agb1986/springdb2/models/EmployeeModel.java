@@ -30,7 +30,7 @@ public class EmployeeModel {
     private String employeeLastName;
 
     @Column(name = "WORKDEPT")
-    private char employeeWorkDepartment;
+    private String employeeWorkDepartment;
 
     @Column(name = "PHONENO")
     private String employeePhoneNumber;
