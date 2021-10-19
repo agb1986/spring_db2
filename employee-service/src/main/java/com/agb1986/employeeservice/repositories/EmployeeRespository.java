@@ -1,9 +1,9 @@
-package com.agb1986.springdb2.repositories;
+package com.agb1986.employeeservice.repositories;
 
 import java.util.List;
 import java.util.Optional;
 
-import com.agb1986.springdb2.models.EmployeeModel;
+import com.agb1986.employeeservice.models.EmployeeModel;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

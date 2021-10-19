@@ -1,10 +1,10 @@
-package com.agb1986.springdb2;
+package com.agb1986.employeeservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringDb2ApplicationTests {
+class employeeserviceApplicationTests {
 
 	@Test
 	void contextLoads() {

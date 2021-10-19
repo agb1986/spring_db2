@@ -1,10 +1,10 @@
-package com.agb1986.springdb2.controllers;
+package com.agb1986.employeeservice.controllers;
 
 import java.util.List;
 import java.util.Map;
 
-import com.agb1986.springdb2.models.EmployeeModel;
-import com.agb1986.springdb2.services.EmployeeService;
+import com.agb1986.employeeservice.models.EmployeeModel;
+import com.agb1986.employeeservice.services.EmployeeService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

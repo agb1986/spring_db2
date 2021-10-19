@@ -1,4 +1,4 @@
-package com.agb1986.springdb2.models;
+package com.agb1986.employeeservice.models;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

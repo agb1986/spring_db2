@@ -8,10 +8,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.agb1986</groupId>
-	<artifactId>spring-db2</artifactId>
+	<artifactId>employee-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-db2</name>
-	<description>Practice project using Spring with DB2</description>
+	<name>employee-service</name>
+	<description>Employee Microservice</description>
 	<properties>
 		<java.version>11</java.version>
 		<spring-cloud.version>2020.0.3</spring-cloud.version>

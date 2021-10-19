@@ -1,11 +1,11 @@
-package com.agb1986.springdb2.services;
+package com.agb1986.employeeservice.services;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import com.agb1986.springdb2.models.EmployeeModel;
-import com.agb1986.springdb2.repositories.EmployeeRespository;
+import com.agb1986.employeeservice.models.EmployeeModel;
+import com.agb1986.employeeservice.repositories.EmployeeRespository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

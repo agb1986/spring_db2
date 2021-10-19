@@ -30,3 +30,4 @@ target/
 .settings/
 db2/
 data.sql
+workspace.code-workspace
