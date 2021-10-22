@@ -2,7 +2,6 @@ package com.agb1986.employeeservice.models;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
@@ -19,7 +18,6 @@ import lombok.Setter;
 public class EmployeeModel {
 
     @Id
-    @GeneratedValue
     @Column(name = "EMPNO")
     @NotNull
     @Size(min = 6, max = 10)
