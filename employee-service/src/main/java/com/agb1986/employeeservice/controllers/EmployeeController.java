@@ -4,8 +4,7 @@ import java.util.List;
 import java.util.Map;
 
 import com.agb1986.employeeservice.models.EmployeeModel;
-import com.agb1986.employeeservice.services.EmployeeService;
-
+import com.agb1986.employeeservice.services.impl.EmployeeServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -16,8 +15,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class EmployeeController {
+    
     @Autowired
-    EmployeeService employeeService;
+    private EmployeeServiceImpl employeeService;
 
     @GetMapping(path = "/employee")
     public ResponseEntity<Object> getAllEmployees() {

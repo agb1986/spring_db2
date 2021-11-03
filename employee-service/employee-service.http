@@ -19,19 +19,19 @@ Host: localhost:8100
 ##### EMPLOYEE SEARCH
 
 ### @name getEmployeeSearch
-GET /employee/search?fname=EILEEN&lname=SMITH HTTP/1.1
+GET /employee/search?fName=EILEEN&lName=SMITH HTTP/1.1
 Host: localhost:8100
 
 ### @name getEmployeeSearchNoResults
-GET /employee/search?fname=HELLO&lname=WORLD HTTP/1.1
+GET /employee/search?fName=HELLO&lName=WORLD HTTP/1.1
 Host: localhost:8100
 
 ### @name getEmployeeSearchFirstName
-GET /employee/search?fname=EILEEN HTTP/1.1
+GET /employee/search?fName=EILEEN HTTP/1.1
 Host: localhost:8100
 
 ### @name getEmployeeSearchLastName
-GET /employee/search?lname=SMITH HTTP/1.1
+GET /employee/search?lName=SMITH HTTP/1.1
 Host: localhost:8100
 
 ### @name getEmployeeSearchNullParams
